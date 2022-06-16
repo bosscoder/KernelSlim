@@ -7,3 +7,6 @@ I had a 64mb KVM server, running the latest Debian 7. Not very secure, so I deci
 
 ### How to use?
 Create a VM with latest Debian 11 (you'll need at least 1GB of RAM to run the installer successfully, or other versions of Debian), complete the installation and enable swap (you'll need swap in most cases, otherwise you won't be needing this). Download the kernel, install it. Edit grub and reboot.
+
+### WARNING!!!!!
+This kernel only contains bare minimum modules/drivers to run Debian, only use if absolutely required!!!
